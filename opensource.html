@@ -5,6 +5,9 @@
 		<title>kenmazaika</title>
 
 		<link href='http://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Syncopate:400,700' rel='stylesheet' type='text/css'>
 
 		<style type="text/css">
 			a:link {color:white}  
@@ -35,11 +38,9 @@
 			}
 
 			pre {
-				width: 150px; margin: 1em 1em; background: #222; padding: 20px;
+				width: 150px; margin: 1em 1em; background: #F2E3C6; padding: 20px;
 				font-size: 25px; color: #555; text-shadow: 0px 2px 3px #171717;
 
-				-webkit-box-shadow: 0px 2px 3px #555;
-				-moz-box-shadow: 0px 2px 3px #555;
 				-webkit-border-radius: 10px;
 				-moz-border-radius: 10px;
 				border: 2px dashed  #ffffff;
@@ -50,27 +51,49 @@
 			}
 			#content {
 				margin: 0 auto;
-				width:1000px;
+				font-size:14px !important;
+				margin-bottom:30px;
+				font-family: 'Cardo', serif;
 			}
 
+			li
+			{
+				list-style-type:none;
+				width:98%;
+				padding:3px;
+			  border: solid 1px white;
+			  background-color: #D4CEAA;
+			margin-bottom:15px;
+			margin-top:-10px;
+			padding-left:4px;
+			}
+			
+
+h3 {
+	font-family: 'Syncopate', sans-serif;
+font-size:30px;
+font-weight:normal;
+	padding-left: 27px;
+	color: #8FA691; 
+}
 			.image-link {text-decoration:none;}
-			#content { padding: 20px;
-				width: 80%;
+			#content { padding: 5px;
+				width: 65%;
 				margin-top:50px;
 
-		font-size: 12px; color: #555; text-shadow: 0px 2px 3px #171717;
-		background-color:#222;
+		font-size: 12px; color: #555; 
+		background-color:#F9FADC;
 
 				-webkit-box-shadow: 0px 2px 3px #555;
 				-moz-box-shadow: 0px 2px 3px #555;
 				-webkit-border-radius: 10px;
 				-moz-border-radius: 10px;
-				border: 2px dashed  #ffffff;
-				box-shadow: 0 0 0 8px #222;
+				border: 3px dashed  #D4CEAA;
+				box-shadow: 0 0 0 8px #F9FADC;
 			
 			}
-			#content a { color: #CCCCCC; }
-			body { font-family: Helvetica; }
+			#content a { color: #CC3917; }
+			body { font-family: Helvetica; color:#2B2823;}
 		</style>
 	</head>
 
@@ -84,26 +107,31 @@
 			<h3>Ruby on Rails</h3>
 			<ul>
 				<li>
-			Fix unit tests in ActiveResource to follow the Ruby on Rails best practices.  <a href="https://github.com/rails/rails/commit/1bedee56314ff1de2d186ca56adbe4059f4b0af3">1bedee56314ff1de2d186ca56adbe4059f4b0af3</a>
+			Fix unit tests in ActiveResource to follow the Ruby on Rails best practices.  <a href="https://github.com/rails/rails/commit/1bedee56314ff1de2d186ca56adbe4059f4b0af3">1bedee56314ff1</a>
 			</li>
 		</ul>
 
 			<h3>ActiveMerchant</h3>
 			<ul>
 				<li>
-					Add Gateway for Integration with Paypal Express for Digital Goods.  <a href="https://github.com/Shopify/active_merchant/commit/63a81d0e167a6391c7042ba6df8aab7176644e1b">63a81d0e167a6391c7042ba6df8aab7176644e1b</a>
+					Add Gateway for Integration with Paypal Express for Digital Goods.  <a href="https://github.com/Shopify/active_merchant/commit/63a81d0e167a6391c7042ba6df8aab7176644e1b">63a81d0e167a639</a>
 				</li>
 
 				<li>
-				Add support for DoReferenceTransactionRequest to PayPal API.  Allow using BAID received from DoExpressCheckoutPaymentRequest (after setting up the transaction by passing BillingAgreementDetails into SetExpressCheckoutRequest).  <a href="https://github.com/Shopify/active_merchant/commit/d20c79cfce5318e8e05b0d0a47a5b45671e404ba">d20c79cfce5318e8e05b0d0a47a5b45671e404ba</a>
+				Add support for DoReferenceTransactionRequest to PayPal API.  Allow using BAID received from DoExpressCheckoutPaymentRequest (after setting up the transaction by passing BillingAgreementDetails into SetExpressCheckoutRequest).  <a href="https://github.com/Shopify/active_merchant/commit/d20c79cfce5318e8e05b0d0a47a5b45671e404ba">d20c79cfce531</a>
 				</li>
 			</ul>
 
 		
 			<h3>Turn</h3>
 			<ul>
-				<li>Update the RegEx that filters out lines of a stack trace, to include files that are in the rails conventional unit test structure to be present. <a href="https://github.com/TwP/turn/commit/287780f248cd0414515b2979765a8e1d4d69215d">287780f248cd0414515b2979765a8e1d4d69215d</a> & <a href="https://github.com/TwP/turn/commit/ee1d78355cd29be727008f74f1c38a1b647e1731">ee1d78355cd29be727008f74f1c38a1b647e1731</a></li>
+				<li>Update the RegEx that filters out lines of a stack trace, to include files that are in the rails conventional unit test structure to be present. <a href="https://github.com/TwP/turn/commit/287780f248cd0414515b2979765a8e1d4d69215d">287780f248cd0</a>, <a href="https://github.com/TwP/turn/commit/ee1d78355cd29be727008f74f1c38a1b647e1731">ee1d78355cd29</a></li>
 			</ul>
+
+<h3>ActiveResource</h3>
+<ul>
+	<li>Add support for resources with singleton routes. <a href="https://github.com/rails/activeresource/commit/5ecd87b6a9e0f586273b218a2a84121748e7a689">5ecd87b6a9e0f</a></li>
+	</ul>
 
 </div>
 </body>
