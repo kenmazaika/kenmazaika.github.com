@@ -148,6 +148,17 @@ font-weight:normal;
         I authored this gem, which adds support for persisting uploaded file content across redisplays of the page, which occur when validation errors happen.  <a href="https://github.com/kenmazaika/file_upload_cache">github page</a>
         </li>
       </ul>
+
+
+      <h3>Capistrano</h3>
+      <ul>
+        <li>Add deprecation warning if someone uses old deploy:symlink syntax on callbacks.  <a href="https://github.com/capistrano/capistrano/commit/021c0574dafb839c4145b1180cb866c8bddbcbf0">021c0574d</a>
+        </li>
+
+        <li>
+        Specify mocha version.  A mock object with function named `process` does not get passed blocks in the latest version (every other function gets blocks as expected).  This fixed the broken test suite on travisci.  <a href="https://github.com/capistrano/capistrano/commit/f25699735cf043e3f51e03be2325c6b37462a8dd">f2569973</a>.  For more details see <a href="https://github.com/freerange/mocha/issues/76">this github issue</a>.
+        </li>
+      </ul>
 </div>
 </body>
 </html>
