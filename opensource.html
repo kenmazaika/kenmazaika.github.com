@@ -159,6 +159,13 @@ font-weight:normal;
         Specify mocha version.  A mock object with function named `process` does not get passed blocks in the latest version (every other function gets blocks as expected).  This fixed the broken test suite on travisci.  <a href="https://github.com/capistrano/capistrano/commit/f25699735cf043e3f51e03be2325c6b37462a8dd">f2569973</a>.  For more details see <a href="https://github.com/freerange/mocha/issues/76">this github issue</a>.
         </li>
       </ul>
+
+      <h3>TourBus</h3>
+      <ul>
+        <li>
+          Fix bug where in Ruby 1.9.3 `methods` returns symbols instead of strings, by mapping each of the method names to a string first.  <a href="https://github.com/dbrady/tourbus/commit/bf89044927a1ada1557e3f74d2d7b8ce628c2bcf">bf89044927a1</a>
+        </li>
+      </ul>
 </div>
 </body>
 </html>
